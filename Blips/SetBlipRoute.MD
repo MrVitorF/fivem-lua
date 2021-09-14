@@ -1,14 +1,14 @@
 ## SetBlipRoute
-This native allows us to set the sprite on a blip, useful to allow for different types of markers on your map.
+This native allows us to set the route to this blip, this can be useful for commands.
 
 | Parameters    | Example     |
 | -----------   | ----------- |
 | (Blip) Blip   | blip        |
-| (int) Sprite  | 60          |
+| (Bool) Toggle | true        |
 
 **Example:**
 
 ```lua
 local blip = AddBlipForCoord(-58.0, -488.0, 40.0)
-SetBlipSprite(blip, 69)
+SetBlipRoute(blip, true)
 ```

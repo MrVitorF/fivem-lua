@@ -20,41 +20,6 @@ local blip = AddBlipForCoord(-58.0, -488.0, 40.0)
 
 ***
 
-
-### SetBlipRoute
-This native allows us to set the route to this blip, this can be useful for commands.
-
-| Parameters    | Example     |
-| -----------   | ----------- |
-| (Blip) Blip   | blip        |
-| (Bool) Toggle | true        |
-
-**Example:**
-
-```lua
-local blip = AddBlipForCoord(-58.0, -488.0, 40.0)
-SetBlipRoute(blip, true)
-```
-
-### SetBlipRouteColour
-This native allows us to set the colour of the route to the blip.
-
-| Parameters    | Example     |
-| -----------   | ----------- |
-| (Blip) Blip   | blip        |
-| (Int) Colour  | 4           |
-
-**Example:**
-
-```lua
-local blip = AddBlipForCoord(-58.0, -488.0, 40.0)
-SetBlipRouteColour(blip, 4)
-```
-
-You can find all of the colours here: https://docs.fivem.net/natives/?_0x03D7FB09E75D6B7E
-
-***
-
 ## Efficient way for multiple blips
 When creating many blips it is not efficient to constantly declare different variables for each blip, so we will use loops in this example.
 

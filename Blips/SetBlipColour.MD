@@ -13,4 +13,8 @@ local blip = AddBlipForCoord(-58.0, -488.0, 40.0)
 SetBlipColour(blip, 4)
 ```
 
+**Result:**
+
+![Blip Sprite](https://i.imgur.com/7VrFjY2.jpg)
+
 You can find all of the colours here: https://docs.fivem.net/natives/?_0x03D7FB09E75D6B7E

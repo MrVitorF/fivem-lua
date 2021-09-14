@@ -46,3 +46,5 @@ end)
 ```
 
 **Result:**
+
+![Multiple blips](https://i.imgur.com/ULgFH5U.jpg)

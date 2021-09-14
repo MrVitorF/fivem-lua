@@ -13,4 +13,6 @@ local blip = AddBlipForCoord(-58.0, -488.0, 40.0)
 SetBlipRouteColour(blip, 4)
 ```
 
+TODO: Get an image of the route colour
+
 You can find all of the colours here: https://docs.fivem.net/natives/?_0x03D7FB09E75D6B7E

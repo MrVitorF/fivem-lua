@@ -12,3 +12,5 @@ This native allows us to set the route to this blip, this can be useful for comm
 local blip = AddBlipForCoord(-58.0, -488.0, 40.0)
 SetBlipRoute(blip, true)
 ```
+
+TODO: Get a picture of the route
